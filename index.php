@@ -23,7 +23,7 @@ $replace = str_replace($badword, '***', $text);
     <body>
         <!-- Stampo a schermo variabile testo normale, lunghezza e variabile testo con asterischi -->
         <p><?php echo $text?></p>
-        <p><?php echo $lunghezza?></p>
-        <p><?php echo $replace?></p>
+        <p><?php echo 'Il testo ha ' .$lunghezza. ' caratteri.'?></p>
+        <h4><?php echo $replace?></h4>
     </body>
 </html>
